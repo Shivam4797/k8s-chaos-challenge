@@ -1,0 +1,12 @@
+# editors & OS
+.vscode/
+.idea/
+.DS_Store
+
+# python/node odds & ends
+__pycache__/
+node_modules/
+
+# env & creds
+.env
+*.secret
