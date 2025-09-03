@@ -1,0 +1,10 @@
+spec:
+  template:
+    spec:
+      imagePullSecrets:
+        - name: dockerhub-secret
+      containers:
+        - name: api
+          image: shivamtodkar/flask-api:latest
+          ports:
+            - containerPort: 5000
